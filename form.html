@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Form</title>
+    <!-- favIcons stript start -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/image/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/image/favicon/site.webmanifest">
+<link rel="mask-icon" href="assets/image/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script src="https://kit.fontawesome.com/d99a87fbc8.js" crossorigin="anonymous"></script>
+<!-- favIcons end -->
+
+
+    <!-- STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONT AWESOME CSS -->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+         <!-- FLEXSLIDER CSS -->
+ <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+      <!-- Google	Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+</head>
+<body>     
+ <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+    <div class="container">
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" ><img class="logo-custom" src="assets/image/logo.jpg" alt=""  /></a>
+        </div>
+        <div class="navbar-collapse collapse move-me">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">HOME</a></li>
+                 <li><a href="index.html#features-sec">COURSES</a></li>
+                <li><a href="index.html#faculty-sec">FACULTY</a></li>
+                 <li><a href="index.html#support-sec">CONTACT</a></li>
+            </ul>
+        </div>
+       
+    </div>
+</div>
+<!-- body start -->
+<div class="form-container">
+    <div class="panel-heading">
+        <h1>Registration form</h1>
+    </div>
+        <div class="panel-form">
+    <form action="connect.php" method="post">
+        <label for="fullName">Fullname</label><br>
+        <input type="text" placeholder="Enter your Fullname" id="fullname" name="fullname"/><br>
+        <label for="Email">Email</label><br>
+        <input type="email" placeholder="Enter your Email" id="email" name="email"/><br>
+        <label for="tel">Phone Number</label><br>
+        <input type="tel" placeholder="Enter your Phone Number" id="phonenumber" maxlength="13" name="phonenumber"/><br>
+        <label for="text">Gender-</label><br>
+        <label for="text"><input type="radio" name="gender" value="m">Male</label>
+        <label for="text"><input type="radio" name="gender" value="f">Female</label><br>
+        
+        <label for="text">Course you want to register for</label><br>
+        <select id="course-list" name="list" ><br>
+        <option value="">SELECT COURSE</option>
+        <option value="ED">Engineering Diploma</option>
+        <option value="FT">Functional Testing</option>
+        <option value="PT">Performance Testing</option>
+        <option value="CAS">Core And Selenium</option>
+        <option value="AP">Aptitude</option>
+        <option value="PY">Python</option>
+        <option value="DM">Digital Marketing</option>
+        <option value="CC">Cloud Computing</option>
+        <option value="DS">Data Structure</option>
+        </select><br>
+        <input type="submit" placeholder="ENROLL" value="ENROLL" name="">
+    </form>
+</div>
+     <!-- contact -->
+     <div id="support-sec">
+        <div class="container">
+          <div class="row set-row-pad"  >
+    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s">
+    
+                 <h2 ><strong>Our Location </strong></h2>
+     <hr />
+                 <div>
+                     <h4>C wing 11 , Kismat Colony building, </h4>
+                     <h4>Mumbra, India.</h4>
+                     <h4><strong>Call:</strong> +91-95611 12973 </h4>
+                     <h4><strong>Email: </strong> resultanttechworld@gmail.com </h4>
+                 </div>
+    
+    
+             </div>
+              <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">
+    
+                 <h2 ><strong>Social Conectivity </strong></h2>
+     <hr />
+                 <div >
+                     <a href="https://www.facebook.com/resultantacademy">  <img src="assets/image/support/facebook.png" alt="" /> </a>
+                  <a href="resultanttechworld@gmail.com"> <img src="assets/image/support/google-plus.png" alt="" /></a>
+                  <a href="#"> <img src="assets/image/support/twitter.png" alt="" /></a>
+                 </div>
+                 </div>
+             </div>
+              </div>
+              </div>
+      
+</body>
+</html>
